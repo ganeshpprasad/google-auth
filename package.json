@@ -6,10 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ganeshpprasad/google-auth.git"
-  },
+  "repository": "git+https://github.com/ganeshpprasad/google-auth.git",
   "keywords": [
     "auth"
   ],
@@ -18,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ganeshpprasad/google-auth/issues"
   },
-  "homepage": "https://github.com/ganeshpprasad/google-auth#readme"
+  "homepage": "https://github.com/ganeshpprasad/google-auth#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.2"
+  }
 }
