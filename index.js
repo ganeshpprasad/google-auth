@@ -1,7 +1,10 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
 
+const dev = process.env.NODE_ENV !== "production";
+
 const app = express();
+app.set("port", process.env.PORT || 3330);
 
 const verifyToken = (req, res, next) => {
 	const bearerHeader = req.headers["authorisation"];
