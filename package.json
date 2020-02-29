@@ -1,0 +1,22 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Auth server using Google login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshpprasad/google-auth.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "Ganesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshpprasad/google-auth/issues"
+  },
+  "homepage": "https://github.com/ganeshpprasad/google-auth#readme"
+}
