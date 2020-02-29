@@ -1,25 +1,26 @@
 {
-  "name": "auth",
-  "version": "1.0.0",
-  "description": "Auth server using Google login",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "git+https://github.com/ganeshpprasad/google-auth.git",
-  "keywords": [
-    "auth"
-  ],
-  "author": "Ganesh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ganeshpprasad/google-auth/issues"
-  },
-  "homepage": "https://github.com/ganeshpprasad/google-auth#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "global": "^4.4.0",
-    "jsonwebtoken": "^8.5.1",
-    "nodemon": "^2.0.2"
-  }
+	"name": "auth",
+	"version": "1.0.0",
+	"description": "Auth server using Google login",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": "git+https://github.com/ganeshpprasad/google-auth.git",
+	"keywords": [
+		"auth"
+	],
+	"author": "Ganesh",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ganeshpprasad/google-auth/issues"
+	},
+	"homepage": "https://github.com/ganeshpprasad/google-auth#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"global": "^4.4.0",
+		"jsonwebtoken": "^8.5.1",
+		"nodemon": "^2.0.2"
+	}
 }
